@@ -22,7 +22,7 @@ Utility script to generate a Zoom server-to-server oauth token for quick api tes
 
 `node s2s.js`
 
-Your Zoom Access Token should now be copied to your clipboard and displayed in the terminal. Printed below your access_tokens, you'll also see the scopes associated with the token. If you enter incorrect Zoom credentials, delete your .env file and run the script again.
+Your Zoom Access Token should now be copied to your clipboard and displayed in the terminal. Printed below your access_tokens, you'll also see the scopes associated with the token. If you enter incorrect Zoom credentials, delete your .env file and run the script again. All Zoom Server-to-Server tokens are valid for 1 hour. When your token expires, just run the script again to generate a new one!
 
 `rm .env`
 
