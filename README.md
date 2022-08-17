@@ -1,5 +1,7 @@
 # Zoom Server-to-Server (s2s) Oauth Token Generation
 
+Utility script to generate a Zoom server-to-server oauth token (valid 1hr). https://marketplace.zoom.us/docs/guides/build/server-to-server-oauth-app/
+
 ## Installation
 
 `git clone https://github.com/brandonabajelo-zoom/s2s.git`
