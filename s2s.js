@@ -21,8 +21,9 @@ const INPUT_SCHEMA = { properties: {} };
  * @returns {boolean}
  */
 const environmentSet = () => {
-  if (!!fs.existsSync(path.join(process.cwd(), '.env'))) {
-    let appCredentials = fs.readFileSync(path.resolve(process.cwd(), '.env'), 'utf-8').trim();
+  if (!fs.existsSync(path.join(process.cwd(), '.env'))) return false;
+
+  let appCredentials = fs.readFileSync(path.resolve(process.cwd(), '.env'), 'utf-8').trim();
     const credentialCheck = {};
     const credentialArray = appCredentials.toString().split('\n');
 
@@ -35,8 +36,6 @@ const environmentSet = () => {
     });
 
     return ZOOM_REQUIRED_CREDENTIALS.every(cred => !!credentialCheck[cred]);
-  }
-  return false;
 }
 
 /**
