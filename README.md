@@ -10,7 +10,7 @@ Utility script to generate a Zoom server-to-server oauth token (valid 1hr). http
 
 1. Enter project directory
 
-`cd s2s`
+`cd Server-to-Server-Oauth-Token`
 
 2. Install project dependencies
 
