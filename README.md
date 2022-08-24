@@ -25,7 +25,7 @@ Utility script to generate a Zoom server-to-server oauth token (valid 1hr). http
 `ZOOM_CLIENT_SECRET=xxxxxxxxxxx`
 
 
-These can be found once you create a Server-to-Server app type in Zoom's Marketplace. Upon first run, you will be prompted for these values.
+These can be found once you create a Server-to-Server app type in Zoom's Marketplace. Upon first run, you will be prompted for these values if they are not already in your environment.
 
 ![Screen Shot 2022-08-23 at 12 16 51 PM](https://user-images.githubusercontent.com/81645097/186247760-8d3c22c0-ff4c-4f74-b606-2c2508bb2a5e.png)
 
