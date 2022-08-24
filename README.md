@@ -4,7 +4,7 @@ Utility script to generate a Zoom server-to-server oauth token (valid 1hr). http
 
 ## Installation
 
-`https://github.com/zoom/Server-to-Server-Oauth-Token.git`
+`git clone https://github.com/zoom/Server-to-Server-Oauth-Token.git`
 
 ## Setup
 
