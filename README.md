@@ -2,7 +2,7 @@
 
 **The JWT app type will be deprecated in June, 2023. We recommend that you create Server-to-Server OAuth or OAuth apps to replace the functionality of a JWT app in your account. Additionally, if you are using a JWT app type for the Meeting SDK for Web, you should migrate to an SDK app type instead.**
 
-This primary goal of this repository is to serve as an example for generating a [Zoom Server-to-Server Oauth Token](https://marketplace.zoom.us/docs/guides/build/server-to-server-oauth-app/) (valid 1hr). Running this project successfully will copy your access_token to the clipboard for quick usage as well as print the scopes associated with the token. Before proceeding, please ensure you've created a Server-to-Server app type in the [Zoom Marketplace](https://marketplace.zoom.us/) to gather the required credentials.
+The primary goal of this repository is to serve as an example for generating a [Zoom Server-to-Server Oauth Token](https://marketplace.zoom.us/docs/guides/build/server-to-server-oauth-app/) (valid 1hr). Running this project successfully will copy your access_token to the clipboard for quick usage as well as print the scopes associated with the token. Before proceeding, please ensure you've created a Server-to-Server app type in the [Zoom Marketplace](https://marketplace.zoom.us/) to gather the required credentials.
 
 ## Installation
 
