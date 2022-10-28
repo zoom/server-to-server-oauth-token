@@ -37,3 +37,7 @@ These can be found once you create a Server-to-Server app type in https://market
 `node s2s.js`
 
 Your Zoom Access Token should now be copied to your clipboard and displayed in the terminal. Printed below your access_token, you'll also see the scopes associated with the token. If you enter incorrect Zoom credentials, delete your .env file and run the script again. All Zoom Server-to-Server tokens are valid for 1 hour. When your token expires, just run the script again to generate a new one!
+
+## Need help?
+
+If you're looking for help, try [Developer Support](https://devsupport.zoom.us)   or our [Developer Forum](https://devforum.zoom.us). Priority support is also available with [Premier Developer Support](https://zoom.us/docs/en-us/developer-support-plans.html) plans.
