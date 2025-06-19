@@ -27,9 +27,10 @@ The primary goal of this repository is to serve as an example for generating a [
 `ZOOM_CLIENT_SECRET=xxxxxxxxxxx`
 
 
-These can be found once you create a Server-to-Server app type in https://marketplace.zoom.us/. Upon first run, you will be prompted for these values if they are not already in your environment.
+These can be found once you create and activate a Server-to-Server app type in https://marketplace.zoom.us/. Upon first run, you will be prompted for these values if they are not already in your environment.
 
-![Screen Shot 2022-08-23 at 12 16 51 PM](https://user-images.githubusercontent.com/81645097/186247760-8d3c22c0-ff4c-4f74-b606-2c2508bb2a5e.png)
+<img width="733" alt="Screenshot 2025-06-19 at 2 33 46 PM" src="https://github.com/user-attachments/assets/7e47be7a-924b-415d-81c8-717f455fbf7e" />
+
 
 
 ## Usage
